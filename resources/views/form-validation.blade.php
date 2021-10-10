@@ -12,7 +12,7 @@
 	<form method="POST" action="/form-validation" autocomplete="off">
 
 
-		<!-- @if(count($errors))
+		 @if(count($errors))
 			<div class="alert alert-danger">
 				<strong>Whoops!</strong> There were some problems with your input.
 				<br/>
@@ -22,7 +22,7 @@
 					@endforeach
 				</ul>
 			</div>
-		@endif -->
+		@endif 
 
 
 		<input type="hidden" name="_token" value="{{ csrf_token() }}">
